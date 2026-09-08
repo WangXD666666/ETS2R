@@ -1,0 +1,23 @@
+{
+  "coordinate_system": "vehicle",
+  "source": "parking-sensor-fusion",
+  "range_m": 15.0,
+  "obstacles": [
+    {
+      "id": "wall-left",
+      "type": "wall",
+      "label": "左侧墙体",
+      "polygon": [[-4.5, -8.0], [-4.0, -8.0], [-4.0, 8.0], [-4.5, 8.0]],
+      "confidence": 0.99
+    },
+    {
+      "id": "vehicle-right",
+      "type": "vehicle",
+      "label": "右侧车辆",
+      "center": [5.0, -2.5],
+      "size": [2.6, 7.0],
+      "yaw_deg": -5.0,
+      "confidence": 0.94
+    }
+  ]
+}

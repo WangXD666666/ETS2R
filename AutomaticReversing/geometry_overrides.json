@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "truck": {},
+  "trailer": {
+    "trailer-02a1e6b342af1130": {
+      "label": "scs_dumper | dumper | single",
+      "selection": {
+        "chassis": "vehicle/trailer/scs_dumper/chassis.sii"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "_description":  "Exact visual body bounds for the geometry visualizer. Coordinates are local telemetry X/Z meters: width is full body width, front_z is the front body edge, rear_z is the rear body edge. Fill entries by truckId or trailer id/body/chain/name key shown in the visualizer.",
+    "truck":  {
+        "vehicle.scania.r_2016":  {
+                                      "width":  2.55,
+                                      "front_z":  5.094,
+                                      "rear_z":  -1.00,
+                                      "note":  "Estimated template. Replace with exact game/model dimensions for accurate visualization.",
+                                      "verified":  false
+                                  }
+    },
+    "trailer":  {
+                    "vehicle.scs.box|refrigerated|single|STD":  {
+                                                                    "width":  2.47,
+                                                                    "front_z":  13.7,
+                                                                    "rear_z":  -3.066,
+                                                                    "note":  "Estimated template. Replace with exact game/model dimensions for accurate visualization.",
+                                                                    "verified":  false
+                                                                }
+                }
+}

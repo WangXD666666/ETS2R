@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+settings.json
+game_data/
+tools/*.zip
+tools/scs_extractor/
+artifacts/
